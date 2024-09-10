@@ -15,157 +15,161 @@
 # Change Notes
 
 ## Table of Contents
-* [General](#general)
-* [Settings](#settings)
-* [HUD](#hud)
-* [Players](#players)
-* [Zombies](#zombies)
-	* [Denizens](#denizens)
-	* [Avogadro](#avogadro)
-	* [Leapers](#leapers)
-	* [Brutus](#brutus)
-	* [Panzersoldat](#panzersoldat)
-* [Weapons](#weapons)
-	* [Pistols](#pistols)
-		* [B23R](#b23r)
-		* [Executioner](#executioner)
-		* [Five-seven Dual Wield](#five-seven-dual-wield)
-		* [KAP-40](#kap-40)
-		* [M1911](#m1911)
-		* [Mauser C96](#mauser-c96)
-		* [Python](#python)
-		* [Remington New Model Army](#remington-new-model-army)
-		* [Tac-45](#tac-45)
-	* [Assault Rifles](#assault-rifles)
-		* [AN-94](#an-94)
-		* [FAL OSW](#fal-osw)
-		* [Galil](#galil)
-		* [M27](#m27)
-		* [M8A1](#m8a1)
-		* [MTAR](#mtar)
-		* [SCAR-H](#scar-h)
-		* [SMR](#smr)
-		* [STG-44](#stg-44)
-		* [SWAT-556](#swat-556)
-		* [Type 25](#type-25)
-	* [Submachine Guns](#submachine-guns)
-		* [Chicom CQB](#chicom-cqb)
-		* [M1927](#m1927)
-		* [MP40](#mp40)
-		* [MSMC](#msmc)
-		* [PDW-57](#pdw-57)
-		* [Skorpion EVO](#skorpion-evo)
-		* [Vector K10](#vector-k10)
-	* [Light Machine Guns](#light-machine-guns)
-		* [HAMR](#hamr)
-		* [MG08/15](#mg0815)
-		* [Mk 48](#mk-48)
-	* [Sniper Rifles](#sniper-rifles)
-		* [Ballista](#ballista)
-		* [DSR 50](#dsr-50)
-		* [XPR-50](#xpr-50)
-	* [Shotguns](#shotguns)
-		* [Remington 870 MCS](#remington-870-mcs)
-		* [S12](#s12)
-	* [Launchers](#launchers)
-		* [War Machine](#war-machine)
-	* [Specials](#specials)
-		* [Ballistic Knife](#ballistic-knife)
-		* [Storm PSR](#storm-psr)
-		* [Titus-6](#titus-6)
-	* [Wonder Weapons](#wonder-weapons)
-		* [Ray Gun](#ray-gun)
-		* [Ray Gun Mark 2](#ray-gun-mark-2)
-		* [Jet Gun](#jet-gun)
-		* [Sliquifier](#sliquifier)
-		* [Paralyzer](#paralyzer)
-		* [Blundergat](#blundergat)
-		* [Acidgat](#acidgat)
-		* [Staffs](#staffs)
-	* [Tactical Grenades](#tactical-grenades)
-		* [Monkey Bomb](#monkey-bomb)
-		* [EMP Grenade](#emp-grenade)
-		* [Smoke Grenade](#smoke-grenade)
-		* [Hell's Retriever](#hells-retriever)
-		* [G-Strike Beacon](#g-strike-beacon)
-	* [Equipment](#equipment)
-		* [Combat Knife](#combat-knife)
-		* [Silver Spoon](#silver-spoon)
-		* [Golden Spork](#golden-spork)
-		* [One Inch Punch](#one-inch-punch)
-		* [Frag Grenade](#frag-grenade)
-		* [Semtex](#semtex)
-		* [Claymore](#claymore)
-		* [Bouncing Betty](#bouncing-betty)
-		* [Time Bomb](#time-bomb)
-* [Wallbuys](#wallbuys)
-* [Mystery Box](#mystery-box)
-* [Perks](#perks)
-	* [Jugger-Nog](#jugger-nog)
-	* [Quick Revive](#quick-revive)
-	* [Speed Cola](#speed-cola)
-	* [Double Tap](#double-tap)
-	* [Stamin-Up](#stamin-up)
-	* [PHD Flopper](#phd-flopper)
-	* [Deadshot Daiquiri](#deadshot-daiquiri)
-	* [Mule Kick](#mule-kick)
-	* [Tombstone Soda](#tombstone-soda)
-	* [Who's Who](#whos-who)
-	* [Electric Cherry](#electric-cherry)
-	* [Vulture-Aid](#vulture-aid)
-* [Pack-a-Punch](#pack-a-punch)
-* [Powerups](#powerups)
-	* [Nuke](#nuke)
-	* [Carpenter](#carpenter)
-	* [Fire Sale](#fire-sale)
-	* [Zombie Blood](#zombie-blood)
-	* [Meat](#meat)
-* [Persistent Upgrades](#persistent-upgrades)
-* [Buildables](#buildables)
-	* [Zombie Shield](#zombie-shield)
-	* [Turret](#turret)
-	* [Electric Trap](#electric-trap)
-	* [Subsurface Resonator](#subsurface-resonator)
-	* [Trample Steam](#trample-steam)
-	* [Head Chopper](#head-chopper)
-	* [Acidgat Kit](#acidgat-kit)
-	* [Maxis Drone](#maxis-drone)
-* [Bank](#bank)
-* [Weapon Locker](#weapon-locker)
-* [NAV Table](#nav-table)
-* [Maps](#maps)
-	* [Nuketown](#nuketown)
-	* [Tranzit](#tranzit)
-		* [Bus Depot](#bus-depot)
-		* [Diner](#diner)
-		* [Farm](#farm)
-		* [Power Station](#power-station)
-		* [Town](#town)
-		* [Tunnel](#tunnel)
-		* [Cornfield](#cornfield)
-	* [Die Rise](#die-rise)
-	* [Buried](#buried)
-		* [Borough](#borough)
-		* [Maze](#maze)
-	* [Mob of the Dead](#mob-of-the-dead)
-		* [Cell Block](#cell-block)
-		* [Docks](#docks)
-	* [Origins](#origins)
-* [Game Modes](#game-modes)
-	* [Encounter](#encounter)
-		* [Grief](#grief)
-		* [Search & Rezurrect](#search--rezurrect)
-		* [Race](#race)
-		* [Containment](#containment)
-		* [Meat](#meat)
-	* [Encounter Pro](#encounter-pro)
+- [Call of Duty: Black Ops 2 Zombies - Reimagined](#call-of-duty-black-ops-2-zombies---reimagined)
+	- [Created by: Jbleezy](#created-by-jbleezy)
+- [Change Notes](#change-notes)
+	- [Table of Contents](#table-of-contents)
+	- [General](#general)
+	- [Settings](#settings)
+	- [HUD](#hud)
+	- [Players](#players)
+	- [Zombies](#zombies)
+		- [Denizens](#denizens)
+		- [Avogadro](#avogadro)
+		- [Leapers](#leapers)
+		- [Brutus](#brutus)
+		- [Panzersoldat](#panzersoldat)
+	- [Weapons](#weapons)
+		- [Pistols](#pistols)
+			- [B23R](#b23r)
+			- [Executioner](#executioner)
+			- [Five-seven Dual Wield](#five-seven-dual-wield)
+			- [KAP-40](#kap-40)
+			- [M1911](#m1911)
+			- [Mauser C96](#mauser-c96)
+			- [Python](#python)
+			- [Remington New Model Army](#remington-new-model-army)
+			- [Tac-45](#tac-45)
+		- [Assault Rifles](#assault-rifles)
+			- [AN-94](#an-94)
+			- [FAL OSW](#fal-osw)
+			- [Galil](#galil)
+			- [M27](#m27)
+			- [M8A1](#m8a1)
+			- [MTAR](#mtar)
+			- [SCAR-H](#scar-h)
+			- [SMR](#smr)
+			- [STG-44](#stg-44)
+			- [SWAT-556](#swat-556)
+			- [Type 25](#type-25)
+		- [Submachine Guns](#submachine-guns)
+			- [Chicom CQB](#chicom-cqb)
+			- [M1927](#m1927)
+			- [MP40](#mp40)
+			- [MSMC](#msmc)
+			- [PDW-57](#pdw-57)
+			- [Skorpion EVO](#skorpion-evo)
+			- [Vector K10](#vector-k10)
+		- [Light Machine Guns](#light-machine-guns)
+			- [HAMR](#hamr)
+			- [MG08/15](#mg0815)
+			- [Mk 48](#mk-48)
+		- [Sniper Rifles](#sniper-rifles)
+			- [Ballista](#ballista)
+			- [DSR 50](#dsr-50)
+			- [XPR-50](#xpr-50)
+		- [Shotguns](#shotguns)
+			- [Remington 870 MCS](#remington-870-mcs)
+			- [S12](#s12)
+		- [Launchers](#launchers)
+			- [War Machine](#war-machine)
+		- [Specials](#specials)
+			- [Ballistic Knife](#ballistic-knife)
+			- [Storm PSR](#storm-psr)
+			- [Titus-6](#titus-6)
+		- [Wonder Weapons](#wonder-weapons)
+			- [Ray Gun](#ray-gun)
+			- [Ray Gun Mark 2](#ray-gun-mark-2)
+			- [Jet Gun](#jet-gun)
+			- [Sliquifier](#sliquifier)
+			- [Paralyzer](#paralyzer)
+			- [Blundergat](#blundergat)
+			- [Acidgat](#acidgat)
+			- [Staffs](#staffs)
+		- [Tactical Grenades](#tactical-grenades)
+			- [Monkey Bomb](#monkey-bomb)
+			- [EMP Grenade](#emp-grenade)
+			- [Smoke Grenade](#smoke-grenade)
+			- [Hell's Retriever](#hells-retriever)
+			- [G-Strike Beacon](#g-strike-beacon)
+		- [Equipment](#equipment)
+			- [Combat Knife](#combat-knife)
+			- [Silver Spoon](#silver-spoon)
+			- [Golden Spork](#golden-spork)
+			- [One Inch Punch](#one-inch-punch)
+			- [Frag Grenade](#frag-grenade)
+			- [Semtex](#semtex)
+			- [Claymore](#claymore)
+			- [Bouncing Betty](#bouncing-betty)
+			- [Time Bomb](#time-bomb)
+	- [Wallbuys](#wallbuys)
+	- [Mystery Box](#mystery-box)
+	- [Perks](#perks)
+		- [Jugger-Nog](#jugger-nog)
+		- [Quick Revive](#quick-revive)
+		- [Speed Cola](#speed-cola)
+		- [Double Tap](#double-tap)
+		- [Stamin-Up](#stamin-up)
+		- [PHD Flopper](#phd-flopper)
+		- [Deadshot Daiquiri](#deadshot-daiquiri)
+		- [Mule Kick](#mule-kick)
+		- [Tombstone Soda](#tombstone-soda)
+		- [Who's Who](#whos-who)
+		- [Electric Cherry](#electric-cherry)
+		- [Vulture-Aid](#vulture-aid)
+	- [Pack-a-Punch](#pack-a-punch)
+	- [Powerups](#powerups)
+		- [Nuke](#nuke)
+		- [Carpenter](#carpenter)
+		- [Fire Sale](#fire-sale)
+		- [Zombie Blood](#zombie-blood)
+		- [Meat](#meat)
+	- [Persistent Upgrades](#persistent-upgrades)
+	- [Buildables](#buildables)
+		- [Zombie Shield](#zombie-shield)
+		- [Turret](#turret)
+		- [Electric Trap](#electric-trap)
+		- [Subsurface Resonator](#subsurface-resonator)
+		- [Trample Steam](#trample-steam)
+		- [Head Chopper](#head-chopper)
+		- [Acidgat Kit](#acidgat-kit)
+		- [Maxis Drone](#maxis-drone)
+	- [Bank](#bank)
+	- [Weapon Locker](#weapon-locker)
+	- [NAV Table](#nav-table)
+	- [Maps](#maps)
+		- [Nuketown](#nuketown)
+		- [Tranzit](#tranzit)
+			- [Bus Depot](#bus-depot)
+			- [Diner](#diner)
+			- [Farm](#farm)
+			- [Power Station](#power-station)
+			- [Town](#town)
+			- [Tunnel](#tunnel)
+			- [Cornfield](#cornfield)
+		- [Die Rise](#die-rise)
+		- [Buried](#buried)
+			- [Borough](#borough)
+			- [Maze](#maze)
+		- [Mob of the Dead](#mob-of-the-dead)
+		- [Cell Block](#cell-block)
+			- [Docks](#docks)
+		- [Origins](#origins)
+	- [Game Modes](#game-modes)
+		- [Encounter](#encounter)
+			- [Grief](#grief)
+			- [Search \& Rezurrect](#search--rezurrect)
+			- [Race](#race)
+			- [Containment](#containment)
+			- [Meat](#meat-1)
+		- [Encounter Pro](#encounter-pro)
 
 ## General
 * Removed round cap
 * Removed 5 second wait before match start
 * Added restart game button when in online solo game
-* Disabled depth of field
-* Increased level of detail at longer distances
+* ~~Disabled depth of field~~
+* ~~Increased level of detail at longer distances~~
 * Announcer audio always plays
 * In-game menu no longer disabled instantly when the game ends
 
@@ -203,124 +207,124 @@
 * Removed NAV cards
 
 ## Players
-* Unlimited sprint
-* Increased health from 100 to 150
-* Self revives in solo are active whenever the player has at least 1 perk
-* Upgraded starting pistol given as self revive pistol above all others except Ray Gun Mark 2
-* 100% backwards move speed
-* Decreased sprint time needed to be able to dive from 0.25 seconds to 0.1 seconds
-* Can move immediately after diving
-* Can dive again right away after just diving
-* Increased melee range by 16% (same as Black Ops 1)
-* Disabled melee lunging
-* Disabled meleeing while doing falling hands anim
-* Removed ammo counter while doing falling hands anim
-* Can look up and down 90 degrees (previously 85 degrees)
-* Decreased normal health regeneration delay from 2.4 seconds to 2 seconds
-* Decreased low health regeneration delay from 5 seconds to 4 seconds
-* Normal health regeneration rate is no longer instant
-* Changed health regeneration rate to 100 health per second (normally fully restored health in 0.5 seconds)
-* Changed low health threshold from 20% of player's max health to 50 health
-* Fall damage no longer increases when max health is increased
+* ~~Unlimited sprint~~
+* ~~Increased health from 100 to 150~~
+* ~~Self revives in solo are active whenever the player has at least 1 perk~~
+* ~~Upgraded starting pistol given as self revive pistol above all others except Ray Gun Mark 2~~
+* ~~100% backwards move speed~~
+* ~~Decreased sprint time needed to be able to dive from 0.25 seconds to 0.1 seconds~~
+* ~~Can move immediately after diving~~
+* ~~Can dive again right away after just diving~~
+* ~~Increased melee range by 16% (same as Black Ops 1)~~
+* ~~Disabled melee lunging~~
+* ~~Disabled meleeing while doing falling hands anim~~
+* ~~Removed ammo counter while doing falling hands anim~~
+* ~~Can look up and down 90 degrees (previously 85 degrees)~~
+* ~~Decreased normal health regeneration delay from 2.4 seconds to 2 seconds~~
+* ~~Decreased low health regeneration delay from 5 seconds to 4 seconds~~
+* ~~Normal health regeneration rate is no longer instant~~
+* ~~Changed health regeneration rate to 100 health per second (normally fully restored health in 0.5 seconds)~~
+* ~~Changed low health threshold from 20% of player's max health to 50 health~~
+* ~~Fall damage no longer increases when max health is increased~~
 * Added blood fx when at or below 20% health
-* Removed blur after getting damaged
-* Removed shellshock from explosive damage
-* No longer killed when landing on top of another player
-* Ignored by zombies for 1 second after being revived
-* Disabled meleeing while reviving (except if player switches weapons)
-* Pressing the fire button while reviving no longer switches weapons
-* Weapon is no longer switched after reviving if player switched weapons during revive
-* No longer gain points back on self revives
-* Respawn near random player (normally respawn near the same player every time)
-* Can shoot while looking at other players
-* Increased mantle speed
-* Increased ladder climb speed
-* Disabled leaning
-* Start with Semtex on maps that have Semtex
-* Barriers can no longer be rebuilt while sprinting or thowing a grenade
-* Upgraded weapon camo is applied in last stand
-* Dual wield last stand weapon is switched to when ammo is only in left clip
-* Decreased friendly player name fade out time from 1.5 seconds to 0.25 seconds
-* Removed enemy player name fade in time
+* ~~Removed blur after getting damaged~~
+* ~~Removed shellshock from explosive damage~~
+* ~~No longer killed when landing on top of another player~~
+* ~~Ignored by zombies for 1 second after being revived~~
+* ~~Disabled meleeing while reviving (except if player switches weapons)~~
+* ~~Pressing the fire button while reviving no longer switches weapons~~
+* ~~Weapon is no longer switched after reviving if player switched weapons during revive~~
+* ~~No longer gain points back on self revives~~
+* ~~Respawn near random player (normally respawn near the same player every time)~~
+* ~~Can shoot while looking at other players~~
+* ~~Increased mantle speed~~
+* ~~Increased ladder climb speed~~
+* ~~Disabled leaning~~
+* ~~Start with Semtex on maps that have Semtex~~
+* ~~Barriers can no longer be rebuilt while sprinting or thowing a grenade~~
+* ~~Upgraded weapon camo is applied in last stand~~
+* ~~Dual wield last stand weapon is switched to when ammo is only in left clip~~
+* ~~Decreased friendly player name fade out time from 1.5 seconds to 0.25 seconds~~
+* ~~Removed enemy player name fade in time~~
 
 ## Zombies
-* Health capped at 100,000
-* Decreased player damage from 60 to 50
-* Changed height to 60 (normally either 48 or 72)
-* Increased damage taken to make a crawler from 10% of current health to 25% of current health
-* Amount of zombies scales linearly with the amount of players
-* Zombies that are deleted due to being too far away always respawn
-* Attracted towards points of interest immediately
-* Removed walkers in high rounds
-* Removed headless zombies
-* Neck counts as headshot
-* All body shot kills award 50 points
-* 4 round and 5 round special rounds happen more equally
-* Fixed not being able to drop powerups after doing certain traversals
+* ~~Health capped at 100,000~~
+* ~~Decreased player damage from 60 to 50~~
+* ~~Changed height to 60 (normally either 48 or 72)~~
+* ~~Increased damage taken to make a crawler from 10% of current health to 25% of current health~~
+* ~~Amount of zombies scales linearly with the amount of players~~
+* ~~Zombies that are deleted due to being too far away always respawn~~
+* ~~Attracted towards points of interest immediately~~
+* ~~Removed walkers in high rounds~~
+* ~~Removed headless zombies~~
+* ~~Neck counts as headshot~~
+* ~~All body shot kills award 50 points~~
+* ~~4 round and 5 round special rounds happen more equally~~
+* ~~Fixed not being able to drop powerups after doing certain traversals~~
 
 ### Denizens
-* Changed max amount that can be spawned at once from 2 total to 1 per player in the fog
-* Changed spawn rate to 5 seconds (normally same spawn rate as zombies)
-* Decreased health from 200 to 150
-* Decreased number of melees to kill from 5 to 3
-* Decreased number of melees to kill with Bowie Knife from 3 to 2
-* Decreased number of melees to kill with Galvaknuckles from 2 to 1
-* No longer automatically runs away when player is first attacked in solo
-* Removed hint when player is first attacked in solo
+* **Changed max amount that can be spawned at once from 2 total to 1 per player in the fog**
+* **Changed spawn rate to 5 seconds (normally same spawn rate as zombies)**
+* **Decreased health from 200 to 150**
+* **Decreased number of melees to kill from 5 to 3**
+* **Decreased number of melees to kill with Bowie Knife from 3 to 2**
+* **Decreased number of melees to kill with Galvaknuckles from 2 to 1**
+* **No longer automatically runs away when player is first attacked in solo**
+* **Removed hint when player is first attacked in solo**
 
 ### Avogadro
 * Drops a random powerup when killed
 * Increased player damage from 90 to 100
-* Decreased minimum distance away from players to be able to attack
+* ~~Decreased minimum distance away from players to be able to attack~~
 * Respawns on the same round if exited due to being too far away from players (normally respawns on the next round)
 
 ### Leapers
-* No longer give each player 2000 points when rewarded a free perk powerup
-* Initial leaper round always happens on round 5 or 6
-* Fixed getting kill points twice
+* ~~No longer give each player 2000 points when rewarded a free perk powerup~~
+* ~~Initial leaper round always happens on round 5 or 6~~
+* ~~Fixed getting kill points twice~~
 
 ### Brutus
-* Smoke Grenade kills zombies
-* Increased player damage from 99 to 100
-* Decreased footstep screen shake by 25%
-* No longer receives additional damage from Ray Gun Mark 2
-* Teleports away less frequently
+* ~~Smoke Grenade kills zombies~~
+* ~~Increased player damage from 99 to 100~~
+* ~~Decreased footstep screen shake by 25%~~
+* ~~No longer receives additional damage from Ray Gun Mark 2~~
+* ~~Teleports away less frequently~~
 
 ### Panzersoldat
-* Decreased footstep screen shake by 25%
-* No longer receives additional damage from Boomhilda or Ray Gun Mark 2
+* ~~Decreased footstep screen shake by 25%~~
+* ~~No longer receives additional damage from Boomhilda or Ray Gun Mark 2~~
 
 ## Weapons
-* Switch to melee weapon by pressing the Melee Weapon button (same button as Time Bomb and Maxis Drone)
-* Added proper melee swing sound to all melee weapons
-* Fixed world model position of certain melee weapons
-* Fixed projectile angles of certain grenades and projectile weapons
-* Fixed alt weapons being switched from when trading weapons
-* Grenades: improved projectile upward speed
-* Grenades: can no longer be thrown faster than intended by throwing a grenade right after throwing one
-* Grenades: changed damage scalar to 25 multiplied by round number (normally random number between 100 and 200 added by round number)
-* Grenades: capped damage scalar at 1500
-* Projectile weapons: changed projectile weapon damage scalar to 50 multiplied by round number (normally random number between 0 and 100 multiplied by round number)
-* Projectile weapons: capped projectile weapon damage scalar at 3000
-* Placeable mines: changed damage scalar to 150 multiplied by round number (normally random number between 100 and 200 multiplied by round number)
-* Placeable mines: capped damage scalar at 9000
+* ~~Switch to melee weapon by pressing the Melee Weapon button (same button as Time Bomb and Maxis Drone)~~
+* ~~Added proper melee swing sound to all melee weapons~~
+* ~~Fixed world model position of certain melee weapons~~
+* ~~Fixed projectile angles of certain grenades and projectile weapons~~
+* ~~Fixed alt weapons being switched from when trading weapons~~
+* ~~Grenades: improved projectile upward speed~~
+* ~~Grenades: can no longer be thrown faster than intended by throwing a grenade right after throwing one~~
+* ~~Grenades: changed damage scalar to 25 multiplied by round number (normally random number between 100 and 200 added by round number)~~
+* ~~Grenades: capped damage scalar at 1500~~
+* ~~Projectile weapons: changed projectile weapon damage scalar to 50 multiplied by round number (normally random number between 0 and 100 multiplied by round number)~~
+* ~~Projectile weapons: capped projectile weapon damage scalar at 3000~~
+* ~~Placeable mines: changed damage scalar to 150 multiplied by round number (normally random number between 100 and 200 multiplied by round number)~~
+* ~~Placeable mines: capped damage scalar at 9000~~
 
 ### Pistols
-* Increased move speed from 100% to 110%
-* Increased move speed while aiming from 200% to 220%
-* Decreased aim FOV from 65 to 60 on all pistols
+* ~~Increased move speed from 100% to 110%~~
+* ~~Increased move speed while aiming from 200% to 220%~~
+* ~~Decreased aim FOV from 65 to 60 on all pistols~~
 
 #### B23R
 * Decreased weapon cost from 1000 to 900 on all maps
 * Upgraded: decreased amount of primary camo
 
 #### Executioner
-* Removed on Buried
+* ~~Removed on Buried~~
 * Upgraded: changed attachment from None to Fast Mag
 
 #### Five-seven Dual Wield
-* Unupgraded: decreased stock ammo from 225 to 210 on all maps
-* Upgraded: decreased stock ammo from 295 to 280 on all maps
+* ~~Unupgraded: decreased stock ammo from 225 to 210 on all maps~~
+* ~~Upgraded: decreased stock ammo from 295 to 280 on all maps~~
 
 #### KAP-40
 * Removed delay between last shot and reload
@@ -340,24 +344,24 @@
 * Upgraded: added proper fire sound
 
 #### Python
-* Removed
+* ~~Removed~~
 
 #### Remington New Model Army
 * Upgraded: added proper fire sound
 
 #### Tac-45
-* Replaces M1911 (except on Mob of the Dead)
+* ~~Replaces M1911 (except on Mob of the Dead)~~
 
 ### Assault Rifles
 
 #### AN-94
-* Increased weapon cost from 1200 to 1500
-* Unupgraded: decreased stock ammo from 300 to 240
-* Upgraded: decreased stock ammo from 600 to 450
-* Upgraded: changed weapon name from "94000" to "9400"
+* ~~Increased weapon cost from 1200 to 1500~~
+* ~~Unupgraded: decreased stock ammo from 300 to 240~~
+* ~~Upgraded: decreased stock ammo from 600 to 450~~
+* ~~Upgraded: changed weapon name from "94000" to "9400"~~
 
 #### FAL OSW
-* Replaces FAL
+* ~~Replaces FAL~~
 
 #### Galil
 * Removed
@@ -373,13 +377,13 @@
 
 #### MTAR
 * Decreased recoil
-* Upgraded: changed attachment from Reflex Sight to EOTech Sight
+* ~~Upgraded: changed attachment from Reflex Sight to EOTech Sight~~
 
 #### SCAR-H
 * Upgraded: changed attachment from Reflex Sight to None
 
 #### SMR
-* Replaces M14
+* ~~Replaces M14~~
 * Removed aim spread
 * Unupgraded: increased damage from 80 to 100
 * Unupgraded: decreased clip ammo from 20 to 10
@@ -394,47 +398,47 @@
 * Upgraded: decreased stock ammo from 330 to 300
 
 #### SWAT-556
-* Replaces M16A1
+* ~~Replaces M16A1~~
 
 #### Type 25
 * Decreased recoil
 * Unupgraded: increased stock ammo from 150 to 300
 * Upgraded: increased stock ammo from 270 to 450
-* Upgraded: changed attachment from Reflex Sight to Millimeter Scanner
+* ~~Upgraded: changed attachment from Reflex Sight to Millimeter Scanner~~
 
 ### Submachine Guns
-* Changed move speed from 100% or 110% to 105%
-* Changed move speed while aiming from 200% or 220% to 210%
+* ~~Changed move speed from 100% or 110% to 105%~~
+* ~~Changed move speed while aiming from 200% or 220% to 210%~~
 
 #### Chicom CQB
-* Unupgraded: decreased clip ammo from 40 to 36
-* Unupgraded: increased stock ammo from 120 to 252
-* Upgraded: increased clip ammo from 40 to 48
-* Upgraded: increased stock ammo from 200 to 336
+* ~~Unupgraded: decreased clip ammo from 40 to 36~~
+* ~~Unupgraded: increased stock ammo from 120 to 252~~
+* ~~Upgraded: increased clip ammo from 40 to 48~~
+* ~~Upgraded: increased stock ammo from 200 to 336~~
 * Upgraded: changed attachment from None to Select Fire
 
 #### M1927
 * Decreased ammo cost from 800 to 750
 
 #### MP40
-* Increased move speed while aiming from 100% to 157.5% (move speed multiplied by 1.5)
-* Ammo gets added to the clip at the same time that it gets added in the reload anim
-* Adjustable Stock: increased move speed while aiming from 250% to 262.5% (move speed multiplied by 2.5)
+* ~~Increased move speed while aiming from 100% to 157.5% (move speed multiplied by 1.5)~~
+* ~~Ammo gets added to the clip at the same time that it gets added in the reload anim~~
+* ~~Adjustable Stock: increased move speed while aiming from 250% to 262.5% (move speed multiplied by 2.5)~~
 
 #### MSMC
-* Replaces MP5
+* ~~Replaces MP5~~
 
 #### PDW-57
-* Upgraded: changed weapon name from "57000" to "5700"
+* ~~Upgraded: changed weapon name from "57000" to "5700"~~
 
 #### Skorpion EVO
 * Upgraded: changed attachment from Reflex Sight to Fast Mag
 
 #### Vector K10
-* Replaces Ak74u
+* ~~Replaces Ak74u~~
 
 ### Light Machine Guns
-* Decreased move speed from 87.5% to 85%
+* ~~Decreased move speed from 87.5% to 85%~~
 * Increased move speed while aiming from 80% to 100% on all light machine guns
 
 #### HAMR
@@ -445,21 +449,21 @@
 * Ammo gets added to the clip at the same time that it gets added in the reload anim
 
 #### Mk 48
-* Replaces RPD
+* ~~Replaces RPD~~
 
 ### Sniper Rifles
-* Decreased move speed from 95% to 90%
-* Disabled scope sway
+* ~~Decreased move speed from 95% to 90%~~
+* ~~Disabled scope sway~~
 * Unupgraded: increased scope FOV from 15 or 20 to 25
 
 #### Ballista
-* Replaces Olympia
+* ~~Replaces Olympia~~
 * Unupgraded: increased damage from 150 to 250
-* Unupgraded: decreased clip ammo from 8 to 6
-* Unupgraded: decreased stock ammo from 64 to 60
+* ~~Unupgraded: decreased clip ammo from 8 to 6~~
+* ~~Unupgraded: decreased stock ammo from 64 to 60~~
 * Upgraded: increased damage from 400 to 500
-* Upgraded: decreased headshot multiplier from 10 to 8
-* Upgraded: decreased stock ammo from 120 to 100
+* ~~Upgraded: decreased headshot multiplier from 10 to 8~~
+* ~~Upgraded: decreased stock ammo from 120 to 100~~
 * Upgraded: increased amount of primary camo
 * Upgraded: added proper fire sound
 
@@ -467,7 +471,7 @@
 * Upgraded: fixed first raise anim
 
 #### XPR-50
-* Replaces Barrett M82A1
+* ~~Replaces Barrett M82A1~~
 
 ### Shotguns
 * Increased penetration
@@ -490,7 +494,7 @@
 #### Ballistic Knife
 * Added model and anims from Black Ops 2 Multiplayer
 * Added sounds on all maps
-* Increased melee time from 0.5 seconds to 0.7 seconds
+* ~~Increased melee time from 0.5 seconds to 0.7 seconds~~
 * Held with Galvaknuckles
 * Projectiles are no longer destroyed when other players walk over them
 * Projectiles are no longer destroyed when purchasing a melee wallbuy
@@ -531,31 +535,31 @@
 * Upgraded: added secondary camo
 
 #### Jet Gun
-* Kills multiple zombies significantly faster
-* Kills zombies that are in the ground, traversing, or behind barriers
-* Awards points for kills
-* Heats up half as fast
-* Cools down twice as fast
-* Cools down while not holding weapon
-* No longer spins up while meleeing
-* No longer kills when not firing
-* No longer changes player vertical velocity while firing
-* No longer automatically switched to weapon when picked up
-* No longer disassembles when overheated
-* Weapon is taken when overheated
-* Buildable table model no longer shows when player has weapon
-* Added heat percentage on HUD
-* Changed weapon name from "Thrustodyne Aeronautics Model 23" to "Jet Gun"
-* Fixed spin dial being inaccurate
-* Fixed HUD icon fading after firing
+* **Kills multiple zombies significantly faster**
+* **Kills zombies that are in the ground, traversing, or behind barriers**
+* **Awards points for kills**
+* **Heats up half as fast**
+* **Cools down twice as fast**
+* **Cools down while not holding weapon**
+* **No longer spins up while meleeing**
+* **No longer kills when not firing**
+* ~~No longer changes player vertical velocity while firing~~
+* **No longer automatically switched to weapon when picked up**
+* **No longer disassembles when overheated**
+* **Weapon is taken when overheated**
+* **Buildable table model no longer shows when player has weapon**
+* ~~Added heat percentage on HUD~~
+* ~~Changed weapon name from "Thrustodyne Aeronautics Model 23" to "Jet Gun"~~
+* **Fixed spin dial being inaccurate**
+* **Fixed HUD icon fading after firing**
 
 #### Sliquifier
 * Added upgraded version
 * Kills on any round (normally stops killing after round 100)
-* Decreased stock ammo from 40 to 20
-* Removed additional goo created by chain kills
+* ~~Decreased stock ammo from 40 to 20~~
+* ~~Removed additional goo created by chain kills~~
 * Continues to chain while not holding weapon
-* Removed player damage
+* ~~Removed player damage~~
 * Upgraded: increases slippery spot duration by 50%
 * Upgraded: increases chain explosion radius by 50%
 * Added teddy bear to buildable table after weapon is taken from it
@@ -565,56 +569,56 @@
 #### Paralyzer
 * Kills on any round
 * Players fall to the ground faster after reaching max fly height
-* Added heat percentage on HUD
+* ~~Added heat percentage on HUD~~
 * Fixed zombie spawn delay after zombie being killed
 
 #### Blundergat
 * Kills on any round in 1-2 shots
-* Infinite penetration
-* Decreased pellet count from 7 to 4
+* ~~Infinite penetration~~
+* ~~Decreased pellet count from 7 to 4~~
 * Increased pellet size
 * Unupgraded: increased pellet damage from 500-250 to 1000-500
-* Unupgraded: decreased stock ammo from 60 to 30
+* ~~Unupgraded: decreased stock ammo from 60 to 30~~
 * Upgraded: increased pellet damage from 1000-500 to 2000-1000
 * Upgraded: decreased stock ammo from 120 to 60
 * Upgraded: added camo
 
 #### Acidgat
 * Kills on any round in 1-2 bursts
-* Increased clip ammo from 3 to 4
-* Increased player damage from 10 to 15
+* ~~Increased clip ammo from 3 to 4~~
+* ~~Increased player damage from 10 to 15~~
 * Increased move speed while aiming from 100% to 200% (same as Blundergat)
-* Decreased explosion radius by 50%
-* Fires all projectiles at once
-* Projectiles fire in a straight line
-* Projectiles no longer seek toward zombies
+* ~~Decreased explosion radius by 50%~~
+* ~~Fires all projectiles at once~~
+* ~~Projectiles fire in a straight line~~
+* ~~Projectiles no longer seek toward zombies~~
 * Added projectile indicator
 * Removed projectile upward speed
 * Deadshot improves accuracy
 * Stuck zombie counts as a kill
-* Unupgraded: decreased stock ammo from 30 bursts to 15 bursts
+* ~~Unupgraded: decreased stock ammo from 30 bursts to 15 bursts~~
 * Unupgraded: changed weapon name from "Acid Gat" to "Acidgat"
-* Upgraded: decreased stock ammo from 50 bursts to 30 bursts
+~~* Upgraded: decreased stock ammo from 50 bursts to 30 bursts~~
 * Upgraded: increased max splash damage from 1000 to 2000
 * Upgraded: increased min splash damage from 500 to 1000
 * Upgraded: added camo
 * Upgraded: added proper fire sound
 
 #### Staffs
-* Upgrade only requires collecting souls in The Crazy Place
-* Can no longer collect souls in The Crazy Place from staff kills
-* Can collect souls in The Crazy Place after upgrading to fill 5% of max ammo per soul
-* Picking up a staff at The Crazy Place while holding a staff places the other staff at The Crazy Place
-* Insterting a staff in The Crazy Place requires player's current weapon to be the staff
-* Fixed triggers for inserting and picking up staffs in The Crazy Place
-* Fixed being able to carry multiple staffs by picking up a staff with staff revive weapon out
+* ~~Upgrade only requires collecting souls in The Crazy Place~~
+* ~~Can no longer collect souls in The Crazy Place from staff kills~~
+* ~~Can collect souls in The Crazy Place after upgrading to fill 5% of max ammo per soul~~
+* ~~Picking up a staff at The Crazy Place while holding a staff places the other staff at The Crazy Place~~
+* ~~Insterting a staff in The Crazy Place requires player's current weapon to be the staff~~
+* ~~Fixed triggers for inserting and picking up staffs in The Crazy Place~~
+* ~~Fixed being able to carry multiple staffs by picking up a staff with staff revive weapon out~~
 * Get full ammo when initially picked up after upgrading (normally missing one clip)
-* Max ammo no longer fills clip ammo
+* ~~Max ammo no longer fills clip ammo~~
 * Upgraded: kill on any round
 * Upgraded: charged shots damage Panzersoldat
 * Upgraded: decreased alt weapon fire time from 3 seconds to 0.5 seconds
 * Upgraded: changed alt weapon fire type from full auto to single shot
-* Fire upgraded: charged shots no longer deal additional damage to Panzersoldat
+* ~~Fire upgraded: charged shots no longer deal additional damage to Panzersoldat~~
 * Ice upgraded: fixed melee sound
 
 ### Tactical Grenades
@@ -626,16 +630,16 @@
 
 #### EMP Grenade
 * Added bounce sounds and shellshock from Black Ops 2 Multiplayer
-* No longer disables HUD
+* ~~No longer disables HUD~~
 * Disables player's perks for 12 seconds
 * Increased ammo from 2 to 3
 * Decreased projectile speed by 30% (same as Black Ops 2 Multiplayer)
 * Decreased zombie EMP radius by 17% (same as Black Ops 2 Multiplayer)
 * Increased perk machine EMP radius by 22% (same as Black Ops 2 Multiplayer)
-* Decreased perk machine EMP time from 90 seconds to 60 seconds
+* ~~Decreased perk machine EMP time from 90 seconds to 60 seconds~~
 * Added fx to EMP'd players
 * Can destroy deployed Zombie Shields
-* Sprinting no longer wakes up EMP'd zombies
+* ~~Sprinting no longer wakes up EMP'd zombies~~
 * Zombies that are in the ground can no longer get EMP'd
 
 #### Smoke Grenade
@@ -643,13 +647,13 @@
 * Kills on any round
 
 #### Hell's Retriever
-* No longer ricochets to other zombies when not charged
-* Every charge increases total zombies attacked by 3
-* Unupgraded: changed damage to 2000 (normally does 1000-2000 damage based on number of charges)
-* Upgraded: kills on any round when not charged
+* ~~No longer ricochets to other zombies when not charged~~
+* ~~Every charge increases total zombies attacked by 3~~
+* ~~Unupgraded: changed damage to 2000 (normally does 1000-2000 damage based on number of charges)~~
+* ~~Upgraded: kills on any round when not charged~~
 
 #### G-Strike Beacon
-* Kills on any round
+* ~~Kills on any round~~
 * Increased ammo from 2 to 3
 
 ### Equipment
@@ -659,14 +663,14 @@
 * Added model from Black Ops 2 Multiplayer
 
 #### Silver Spoon
-* Decreased damage from 1100 to 1000
+* ~~Decreased damage from 1100 to 1000~~
 
 #### Golden Spork
-* Decreased damage from 10000 to 5000
+* ~~Decreased damage from 10000 to 5000~~
 
 #### One Inch Punch
 * Deals same damage at any range
-* Decreased range by 4% (exactly 50% more range than normal melee)
+* ~~Decreased range by 4% (exactly 50% more range than normal melee)~~
 * Upgraded: elemental punch changes based on which staff the player currently has
 * Upgraded: uses melee lunge anim as normal melee anim
 * Wind: knocks down zombies that are damaged
@@ -680,7 +684,7 @@
 * Replaces Semtex on Origins
 
 #### Semtex
-* Replaces Frag Grenade on Mob of the Dead
+* ~~Replaces Frag Grenade on Mob of the Dead~~
 
 #### Claymore
 * Added plant and alert sounds to all maps
@@ -689,25 +693,25 @@
 * Increased explosion radius by 28% (same as Black Ops 2 Multiplayer)
 * Increased max amount that can be placed from 12 to 20
 * Added weapon name on HUD
-* Removed initial weapon raise anim
+* ~~Removed initial weapon raise anim~~
 
 #### Bouncing Betty
-* Replaces Claymore on Origins
+* ~~Replaces Claymore on Origins~~
 
 #### Time Bomb
-* No longer sends players back in time
-* Kills all zombies
-* Revives all downed players
-* Can have with Monkey Bombs
-* Switches to detonator at correct time after throwing
-* Fixed detonator raise and drop anims
+* ~~No longer sends players back in time~~
+* ~~Kills all zombies~~
+* ~~Revives all downed players~~
+* ~~Can have with Monkey Bombs~~
+* ~~Switches to detonator at correct time after throwing~~
+* ~~Fixed detonator raise and drop anims~~
 
 ## Wallbuys
 * Purchasing ammo refills clip ammo
 * Increased trigger radius
-* Decreased upgraded ammo cost from 4500 to 2500
+* ~~Decreased upgraded ammo cost from 4500 to 2500~~
 * Ammo can be purchased if only alt weapon ammo has been used
-* Purchasing no longer shows the weapon model at other wallbuys of the same weapon
+* ~~Purchasing no longer shows the weapon model at other wallbuys of the same weapon~~
 * Lethal grenade hint string no longer displays "ammo" after purchasing
 * Downing while purchasing a melee weapon gives the melee weapon
 * Increased brightness of wallbuy chalks
@@ -717,22 +721,22 @@
 * Players get every weapon they can before getting duplicates
 * Players only see weapons rising up that they can currently obtain
 * Decreased weapon pickup time from 12 seconds to 9 seconds
-* Moves to new location instantly
+* ~~Moves to new location instantly~~
 * Special sound no longer plays when obtaining the Ray Gun
 * Special sound plays when obtaining a limited weapon
 
 ## Perks
-* Removed perk limit
+* ~~Removed perk limit~~
 * Removed blur after drinking
 * No longer deactivated if the perk machine is powered off
 * Added high qualty perk icons to all maps
 
 ### Jugger-Nog
-* Increases current health by 100 upon purchase (normally sets current health to max)
+* ~~Increases current health by 100 upon purchase (normally sets current health to max)~~
 
 ### Quick Revive
-* No longer automatically powered on in solo
-* Increased cost in solo from 500 to 1500
+* ~~No longer automatically powered on in solo~~
+* ~~Increased cost in solo from 500 to 1500~~
 * Decreases revive time by 33.33%
 * Decreases health regeneration delay by 25%
 * Changed hint string from "Revive" to "Quick Revive"
@@ -743,12 +747,12 @@
 * Throw grenades twice as fast
 
 ### Double Tap
-* Removed shooting 2 bullets for every shot
-* Increases bullet damage by 50%
+* ~~Removed shooting 2 bullets for every shot~~
+* ~~Increases bullet damage by 50%~~
 
 ### Stamin-Up
-* Increased cost from 2000 to 2500
-* Move 7% faster (normally only sprint 10% faster)
+* ~~Increased cost from 2000 to 2500~~
+* ~~Move 7% faster (normally only sprint 10% faster)~~
 
 ### PHD Flopper
 * Added perk bottle model from Origins to all maps
@@ -763,8 +767,8 @@
 
 ### Mule Kick
 * Added additional weapon indicator
-* Additional weapon is given back when perk is reacquired
-* Stowed weapons automatically reload over time
+* ~~Additional weapon is given back when perk is reacquired~~
+* ~~Stowed weapons automatically reload over time~~
 
 ### Tombstone Soda
 * Added in solo and Grief
@@ -801,33 +805,33 @@
 
 ### Vulture-Aid
 * Added ability to see zombies through walls
-* Removed ability to see perks, wallbuys, and Mystery Box through walls
-* Stink areas no longer activate while the player is moving
+* ~~Removed ability to see perks, wallbuys, and Mystery Box through walls~~
+* ~~Stink areas no longer activate while the player is moving~~
 
 ## Pack-a-Punch
-* Changed default weapon camo to dragon camo from Black Ops 2 Multiplayer (modified to be darker on primary camo and not animated on secondary camo)
-* Attachments on weapons can no longer be changed
+* ~~Changed default weapon camo to dragon camo from Black Ops 2 Multiplayer (modified to be darker on primary camo and not animated on secondary camo)~~
+* ~~Attachments on weapons can no longer be changed~~
 * Reticles on optical attachments are no longer random
 * Decreased weapon pickup time from 15 seconds to 12 seconds
 * Added sound when attempting to purchase without enough points
 
 ## Powerups
-* Decreased chance to drop from 3% to 2%
+* ~~Decreased chance to drop from 3% to 2%~~
 * Grabbing time based powerups that are already active add to timer instead of resetting timer
-* Fx plays when a powerup drops if it is the last powerup of a cycle
+* ~~Fx plays when a powerup drops if it is the last powerup of a cycle~~
 
 ### Nuke
-* Kills all zombies instantly
+* ~~Kills all zombies instantly~~
 
 ### Carpenter
-* Removed
+* ~~Removed~~
 
 ### Fire Sale
 * Added on Tranzit and Die Rise
 
 ### Zombie Blood
-* No longer makes zombies ignore the player
-* Makes the player invulnerable to zombie melee swipes
+* ~~No longer makes zombies ignore the player~~
+* ~~Makes the player invulnerable to zombie melee swipes~~
 
 ### Meat
 * All zombies go after player holding the meat
@@ -851,20 +855,20 @@
 * Replaced with Richtofen's Head on Cell Block and Docks
 
 ## Persistent Upgrades
-* Removed
+* ~~Removed~~
 
 ## Buildables
-* Added purchase cost
-* Parts automatically picked up
+* ~~Added purchase cost~~
+* ~~Parts automatically picked up~~
 * Can be built at any buildable table on all maps
 * Zombies no longer attack (except Zombie Shield)
-* Can no longer be destroyed by 2 grenades
-* Can be destroyed by taking 1500 damage
+* ~~Can no longer be destroyed by 2 grenades~~
+* ~~Can be destroyed by taking 1500 damage~~
 * Can no longer be picked up after being destroyed
 * Added weapon name on HUD to all buildables
-* Increased move speed while holding from 100% to 110% (except Zombie Shield)
-* Can no longer melee while holding (except Zombie Shield)
-* Removed dive anim
+* ~~Increased move speed while holding from 100% to 110% (except Zombie Shield)~~
+* ~~Can no longer melee while holding (except Zombie Shield)~~
+* ~~Removed dive anim~~
 * Added held world model
 * Changed crafting hint string from "Building..." to "Crafting..."
 * Changed purchase hint string from "for" to "to take" on all maps
@@ -874,45 +878,45 @@
 * Added shield health bar on HUD
 * Awards points for kills and damage
 * Can be repaired at buildable table (same cost as purchase cost)
-* Zombies that are on fire no longer explode on death
+* ~~Zombies that are on fire no longer explode on death~~
 * Can be destroyed by player damage when deployed
 * Destroyed sound plays when player is holding
 * Deployed damage sound plays on shield instead of player
 * Switches back to correct weapon after deploying
 
 ### Turret
-* No longer needs to be powered by a Turbine
+* ~~No longer needs to be powered by a Turbine~~
 * Gets destroyed after being deployed for 30 seconds
 * Kills on any round in 1-4 shots (normally does 1200 damage max)
 * No longer damages players
-* Changed fire type from burst fire to continuous fire
+* ~~Changed fire type from burst fire to continuous fire~~
 * Fixed an issue where the Turret sounds would continue playing after being picked up
 
 ### Electric Trap
-* No longer needs to be powered by a Turbine
+* ~~No longer needs to be powered by a Turbine~~
 * Gets destroyed after being deployed for 30 seconds
 * Kills on any round (normally stops killing after round 50)
 * Kills zombies instantly
-* Zombies that are on fire no longer explode on death
+* ~~Zombies that are on fire no longer explode on death~~
 * No longer kills players without Jugger-Nog instantly
 * Decreased player damage from 75 to 25
 * Decreased player shellshock time from 2.5 seconds to 1.25 seconds
 * Decreased startup time from 2 seconds to 0.5 seconds
 
 ### Subsurface Resonator
-* No longer needs to be powered by a Turbine
-* No longer gets destroyed from kills
+* ~~No longer needs to be powered by a Turbine~~
+* ~~No longer gets destroyed from kills~~
 * Gets destroyed after being deployed for 30 seconds
 * Fires every 2 seconds (normally has a longer delay depending on the amount of kills from the previous fire)
 
 ### Trample Steam
-* No longer gets destroyed from kills
+* ~~No longer gets destroyed from kills~~
 * Gets destroyed after activating 15 times
 * Does fast cooldown when player activates
 * Fixed an issue where players were not flung correctly when activating the Trample Steam while in the air
 
 ### Head Chopper
-* No longer gets destroyed from kills
+* ~~No longer gets destroyed from kills~~
 * Gets destroyed after activating 10 times
 * Does multiple swings when player activates
 * Kills zombies when placed on a ceiling
@@ -923,11 +927,11 @@
 * Fixed an issue where each chop would only damage entities that were touching the damage trigger during the previous chop
 
 ### Acidgat Kit
-* Player does knuckle crack anim during conversion
+* ~~Player does knuckle crack anim during conversion~~
 * Requires player's current weapon to be the Blundergat to convert
 * Requires player to be looking at the buildable table to convert
 * Changed craft hint string from "Blundergat Upgrade" to "Acidgat Kit"
-* Changed pick up hint string from "take your converted weapon" to "take Acidgat"
+* ~~Changed pick up hint string from "take your converted weapon" to "take Acidgat"~~
 * Fixed buildable table not showing locked hint string
 
 ### Maxis Drone
@@ -954,9 +958,9 @@
 * Placed weapon displayed on HUD
 
 ## NAV Table
-* Automatically crafted
-* Costs 100,000 points
-* Ends the game
+* ~~Automatically crafted~~
+* ~~Costs 100,000 points~~
+* ~~Ends the game~~
 
 ## Maps
 * All locations can be played on Survival and Grief game modes
@@ -965,50 +969,50 @@
 * All quests play a song on completion after ending the current round
 
 ### Nuketown
-* Initial perk is no longer always Quick Revive in solo
-* Initial perk no longer always spawns in the starting area in solo
-* Initial perk spawns at round 1 in coop
-* Perks spawn every 5 rounds
-* Increased intermission time from 7.5 seconds to 15 seconds
+* ~~Initial perk is no longer always Quick Revive in solo~~
+* ~~Initial perk no longer always spawns in the starting area in solo~~
+* ~~Initial perk spawns at round 1 in coop~~
+* ~~Perks spawn every 5 rounds~~
+* ~~Increased intermission time from 7.5 seconds to 15 seconds~~
 * Fixed Mystery Box floating in the sky at the start of the game
 
 ### Tranzit
-* Added PDW-57 wallbuy at Bus Depot
-* Added AN-94 wallbuy at Town
-* Added SVU-AS wallbuy at Cornfield
-* Added Mystery Box at Tunnel
-* Added Mystery Box at Cornfield
-* Power switch, Pack-a-Punch, and Diner hatch automatically crafted
+* ~~Added PDW-57 wallbuy at Bus Depot~~
+* ~~Added AN-94 wallbuy at Town~~
+* ~~Added SVU-AS wallbuy at Cornfield~~
+* ~~Added Mystery Box at Tunnel~~
+* ~~Added Mystery Box at Cornfield~~
+* ~~Power switch, Pack-a-Punch, and Diner hatch automatically crafted~~
 * Any door that requires a Turbine to open is automatically open whenever the power is on
-* Increased bus speed by 100%
-* Added bus depart timer on HUD when player is on bus
+* ~~Increased bus speed by 100%~~
+* ~~Added bus depart timer on HUD when player is on bus~~
 * Powerups dropped within the bus are linked to the bus
 * Players can sprint and go prone on the bus
 * Bus wallbuy trigger functions the same as other wallbuy triggers
-* Lava in starting area activates after the power is on
+* ~~Lava in starting area activates after the power is on~~
 * Lava destroys grenades instantly
 * Lava damage no longer changes based on player's health
 * Decreased light lava damage from 6 to 5
 * Decreased zombie explosion max damage from 30 to 15
 * Players can be revived in the fog easier
-* Lamp post portals stay active after activating once
-* Each lamp post portal teleports players to a set destination lamp post (randomizes each game)
+* ~~Lamp post portals stay active after activating once~~
+* ~~Each lamp post portal teleports players to a set destination lamp post (randomizes each game)~~
 * Decreased brightness at Power Station
-* Zombies killed by the bus no longer respawn
+* ~~Zombies killed by the bus no longer respawn~~
 * Zombies no longer spawn in the Prototype zone when in the Cornfield zone
 * Zombies no longer spawn in the Cornfield zone when in the Prototype zone
 * Zombies spawn in the Warehouse zone when in the Outside Power Station zone before the Warehouse door is opened
 * Zombies spawn in the Outside Power Station zone when in the Fog After Power Station zone
 * Zombies spawn in the Warehouse zone when in the Fog After Power Station zone
 * Added "Avenged Sevenfold - Carry On" song (activated by triggering the teddy bear at Farm last)
-* Added "Skrillex - Try It Out" song (activated by triggering the teddy bear at Bus Depot last)
+* ~~Added "Skrillex - Try It Out" song (activated by triggering the teddy bear at Bus Depot last)~~
 * Quest: added "Benn - Just Like You" song
 * Quest: increased pylon powerup drop rate from 4-12 minutes to 2-6 minutes
 * Quest (Maxis): Avogadro step only requires 1 Turbine under the pylon
-* Quest (Maxis): Turbine can get destroyed by the EMP during the Avogadro step and it will still count as completed
-* Quest (Maxis): lamp posts step requires all 8 lamp posts to get powered by a Turbine
+* ~~Quest (Maxis): Turbine can get destroyed by the EMP during the Avogadro step and it will still count as completed~~
+* ~~Quest (Maxis): lamp posts step requires all 8 lamp posts to get powered by a Turbine~~
 * Quest (Maxis): lamp posts step no longer requires all Turbines to be placed at the same time
-* Quest (Richtofen): lamp posts step requires all 8 lamp posts to get powered off by an EMP
+* ~~Quest (Richtofen): lamp posts step requires all 8 lamp posts to get powered off by an EMP~~
 * Quest (Richtofen): lamp posts step no longer requires all lamp posts to be powered off at the same time
 * Survival & Grief: power doors are buyable doors
 * Grief: added Ballistic Knife, Ray Gun, and Ray Gun Mark 2 to the Mystery Box
@@ -1018,8 +1022,8 @@
 * Fixed zombie pathing at Town in Bookstore
 
 #### Bus Depot
-* Lava in starting area activates immediately
-* Lava pit is accessible
+* ~~Lava in starting area activates immediately~~
+* ~~Lava pit is accessible~~
 
 #### Diner
 * Wallbuys: SMR, MSMC, Remington 870 MCS, Galvaknuckles
@@ -1027,8 +1031,8 @@
 * No Pack-a-Punch
 
 #### Farm
-* Zombies spawn in the Farm zone when in the Barn zone
-* Replaced Galvaknuckles wallbuy with Claymore wallbuy (also added to Grief)
+* ~~Zombies spawn in the Farm zone when in the Barn zone~~
+* ~~Replaced Galvaknuckles wallbuy with Claymore wallbuy (also added to Grief)~~
 
 #### Power Station
 * Wallbuys: SMR, Ballista, MSMC, Vector K10, Remington 870 MCS, Bowie Knife
@@ -1054,17 +1058,17 @@
 * Added Mystery Box at Blue Highrise area
 * Added Mystery Box at Orange Highrise area
 * Moved Mystery Box at Green Rooftop area from Green Rooftop Behind Restaurant zone to Green Rooftop Restaurant zone
-* Removed key
-* Elevators and escape pod can be called without key
-* Added purchase cost to call elevators and escape pod
-* Elevators can be locked at their current floor
-* Escape pod can be used with any amount of players
-* Escape pod can be called up or down
-* Moved weapon locker to the downstairs fridge
+* ~~Removed key~~
+* ~~Elevators and escape pod can be called without key~~
+* ~~Added purchase cost to call elevators and escape pod~~
+* ~~Elevators can be locked at their current floor~~
+* ~~Escape pod can be used with any amount of players~~
+* ~~Escape pod can be called up or down~~
+* ~~Moved weapon locker to the downstairs fridge~~
 * Quick Revive elevator randomizes with Speed Cola and Who's Who elevators
-* Pack-a-Punch can be used while elevator is moving
+* ~~Pack-a-Punch can be used while elevator is moving~~
 * Doors that open the same zone in the Blue Highrise area open together
-* Zombies killed by an elevator no longer respawn
+* ~~Zombies killed by an elevator no longer respawn~~
 * Zombies are no longer killed while spawning in a stationary elevator
 * Zombies no longer spawn in the Blue Rooftop area when in the Green Rooftop area
 * Zombies no longer spawn across from the debris in the Orange Highrise area when the debris is closed
@@ -1077,42 +1081,42 @@
 * Quest: added "Benn - High Risers" song
 * Quest: elevator symbols can be activated without players on every symbol
 * Quest: elevator symbols stay active after activating once
-* Quest: floor symbols can be activated in any order
+* ~~Quest: floor symbols can be activated in any order~~
 * Quest: Trample Steam step only requires one Trample Steam to be placed in the correct position
-* Quest: tower legs can be punched in any order
+* ~~Quest: tower legs can be punched in any order~~
 * Quest (Maxis): no longer have to shoot the upgraded Ballistic Knife after collecting the corpses
 * Quest (Maxis): ball no longer requires a Trample Steam on the other side
 * Quest (Richtofen): decreased number of Sliquifier shots required for each ball from 20 to 10
 
 ### Buried
-* Added Frag Grenade wallbuy at General Store
-* Removed Turbine, key, booze, and candy
-* Power automatically on
-* Noose and Guillotine parts automatically picked up
-* Remington 870 MCS wallbuy chalk automatically drawn in the Center Tunnels zone
-* Moved MSMC wallbuy to its location on Borough
-* Moved buildable wallbuy in Courthouse to AN-94 wallbuy location on Borough
-* Adjusted buildable wallbuy positions
-* Drawing weapons no longer gives points
-* Arthur barricades are buyable debris
-* Arthur can be purchased to feed him candy and make him run around and kill zombies for 30 seconds
-* Ghosts no longer spawn and go after players not in the Mansion during a ghost round
-* Ghosts no longer drop free perk powerup if any player gets damaged by the ghosts
-* Fountain portal automatically active
-* Players no longer take fall damage after using the fountain teleporter
-* Players can no longer get into the corner next to Jugger-Nog
-* Removed buildable table hint icons
-* Added buildable table hint strings on buildable purchase
+* ~~Added Frag Grenade wallbuy at General Store~~
+* ~~Removed Turbine, key, booze, and candy~~
+* ~~Power automatically on~~
+* ~~Noose and Guillotine parts automatically picked up~~
+* ~~Remington 870 MCS wallbuy chalk automatically drawn in the Center Tunnels zone~~
+* ~~Moved MSMC wallbuy to its location on Borough~~
+* ~~Moved buildable wallbuy in Courthouse to AN-94 wallbuy location on Borough~~
+* ~~Adjusted buildable wallbuy positions~~
+* ~~Drawing weapons no longer gives points~~
+* ~~Arthur barricades are buyable debris~~
+* ~~Arthur can be purchased to feed him candy and make him run around and kill zombies for 30 seconds~~
+* ~~Ghosts no longer spawn and go after players not in the Mansion during a ghost round~~
+* ~~Ghosts no longer drop free perk powerup if any player gets damaged by the ghosts~~
+* ~~Fountain portal automatically active~~
+* ~~Players no longer take fall damage after using the fountain teleporter~~
+* ~~Players can no longer get into the corner next to Jugger-Nog~~
+* ~~Removed buildable table hint icons~~
+* ~~Added buildable table hint strings on buildable purchase~~
 * Quest: added "Benn - Bury Me" song
-* Quest: all 5 signs must be meleed for wisp to spawn
+* ~~Quest: all 5 signs must be meleed for wisp to spawn~~
 * Quest: changed number of targets that need to be hit to 20 multiplied by the amount of players
-* Quest: perks given on completion are no longer permament
+* ~~Quest: perks given on completion are no longer permament~~
 * Quest: completion button always activatable after completing the quest
-* Quest (Maxis): no longer need to activate the Time Bomb to be able to spawn the 2nd wisp
-* Quest (Maxis): no longer need to activate the lever in the Mansion before activating the bells
-* Quest (Maxis): bells can be activated in any order
+* ~~Quest (Maxis): no longer need to activate the Time Bomb to be able to spawn the 2nd wisp~~
+* ~~Quest (Maxis): no longer need to activate the lever in the Mansion before activating the bells~~
+* ~~Quest (Maxis): bells can be activated in any order~~
 * Quest (Richtofen): can enter round infinity without having all players next to the Guillotine
-* Quest (Richtofen): Maze levers can be activated in an order
+* ~~Quest (Richtofen): Maze levers can be activated in an order~~
 * Quest (Richtofen): Richtofen zombie can only drop powerup if killed by a player
 
 #### Borough
@@ -1139,27 +1143,27 @@
 * Perks and wallbuys within the maze are randomized each game
 
 ### Mob of the Dead
-* Replaced Remington 870 MCS wallbuy at Citadel with Semtex wallbuy
-* 1 afterlife max in solo
+* ~~Replaced Remington 870 MCS wallbuy at Citadel with Semtex wallbuy~~
+* ~~1 afterlife max in solo~~
 * Entering afterlife no longer takes 2 additional seconds if the player had Electric Cherry
 * Spawn facing towards the afterlife player model when entering afterlife
-* Doors can no longer be purchased when entering afterlife
+* ~~Doors can no longer be purchased when entering afterlife~~
 * Afterlife player model has collision
-* Moved afterlife icon to the left side of screen above health bar and zone name
-* Afterlife icon fades when player has no afterlife lives
-* Removed afterlife lives counter
+* ~~Moved afterlife icon to the left side of screen above health bar and zone name~~
+* ~~Afterlife icon fades when player has no afterlife lives~~
+* ~~Removed afterlife lives counter~~
 * Key on HUD fades out
 * Plane parts are shared in coop
 * Plane parts must be all acquired to craft
-* Plane no longer has to be refueled
-* Plane reappears immediately after coming back from the Golden Gate Bridge
-* Electric chairs appear immediately after crashing at the Golden Gate Bridge
+* ~~Plane no longer has to be refueled~~
+* ~~Plane reappears immediately after coming back from the Golden Gate Bridge~~
+* ~~Electric chairs appear immediately after crashing at the Golden Gate Bridge~~
 * Zombies spawn sooner after crashing at the Golden Gate Bridge
-* Decreased starting room doors cost from 1000 to 750
-* Opening one of the starting room doors no longer opens the other
-* Brutus no longer spawns if no doors have been opened
-* Activating the laundry machine always spawns zombies instead of Brutus
-* Docks gate no longer closes when shock box is shocked in afterlife
+* ~~Decreased starting room doors cost from 1000 to 750~~
+* ~~Opening one of the starting room doors no longer opens the other~~
+* ~~Brutus no longer spawns if no doors have been opened~~
+* ~~Activating the laundry machine always spawns zombies instead of Brutus~~
+* ~~Docks gate no longer closes when shock box is shocked in afterlife~~
 * Players no longer respawn in the Acid Trap
 * Added falling hands anim from Origins
 * Acid Trap: kills on any round (normally stops killing after round 158 on PC)
@@ -1179,12 +1183,12 @@
 * Changed background color of Acidgat Kit parts on HUD from blue to green
 * Quest: added "Benn - Alcatraz" song
 * Quest: Blundergat gets full ammo when picked up (normally missing one clip)
-* Quest: number pad only needs each number to be shocked once in order to complete
+* ~~Quest: number pad only needs each number to be shocked once in order to complete~~
 * Quest: can enter the plane in afterlife with any amount of players
 * Quest: can enter the plane in afterlife without Weasel
 * Quest: if Weasel is the only player in the game, the cycle breaks immediately after reviving yourself on the Golden Gate Bridge
 * Quest: if Weasel is not in the game, the cycle continues immediately after everyone revives themselves on the Golden Gate Bridge
-* Quest: players no longer get moved to different positions when starting the showdown
+* ~~Quest: players no longer get moved to different positions when starting the showdown~~
 * Quest: showdown target waypoint shows offscreen
 * Fixed afterlife icon showing when initially in afterlife at the start of the game
 * Fixed initial weapon raise anim happening after exiting afterlife
