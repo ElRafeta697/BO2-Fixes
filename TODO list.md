@@ -1,0 +1,7 @@
+ - [ ] 1. Estudiar y anotar la fila de llamadas
+ - [ ] 2. Eliminar todos los archivos no necesarios que no afecten a los cambios referentes a esta rama
+ - [ ] 3. Estudiar en los archivos restantes la serie de modificaciones necesarias para obtener los cambios pendientes
+ - [ ] 4. Realizar cambios
+ - [ ] 5. Realizar copia de BOII en casa
+ - [ ] 6. Probar cambios
+ - [ ] 7. Ir corrigiendo errores
